@@ -9,13 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.28",
+    "@tonconnect/sdk": "^3.0.5",
+    "buffer": "^6.0.3",
+    "expo": "^51.0.0",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-randombytes": "^3.6.1",
+    "react-native-url-polyfill": "^2.0.0",
+    "tonweb": "^0.0.66"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.24.0"
   },
   "private": true
 }
